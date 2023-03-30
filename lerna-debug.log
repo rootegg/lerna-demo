@@ -1,0 +1,24 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   lernaVersion: '6.6.1',
+0 silly argv   '$0': 'C:\\Program Files\\nodejs\\node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v6.6.1
+2 verbose rootPath D:\lerna-demo
+3 info current version 0.1.1
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 error Error: Command failed with exit code 1: git remote update
+10 error fatal: unable to access 'https://github.com/rootegg/lerna-demo.git/': Failed to connect to github.com port 443 after 21031 ms: Timed out
+10 error error: could not fetch origin
+10 error Fetching origin
+10 error     at makeError (D:\lerna-demo\node_modules\@lerna\child-process\node_modules\execa\lib\error.js:60:11)
+10 error     at Function.module.exports.sync (D:\lerna-demo\node_modules\@lerna\child-process\node_modules\execa\index.js:194:17)
+10 error     at Object.execSync (D:\lerna-demo\node_modules\@lerna\child-process\index.js:39:16)
+10 error     at updateRemote (D:\lerna-demo\node_modules\lerna\dist\cli.js:5908:22)
+10 error     at isBehindUpstream (D:\lerna-demo\node_modules\lerna\dist\cli.js:5898:7)
+10 error     at VersionCommand.initialize (D:\lerna-demo\node_modules\lerna\dist\cli.js:6233:57)
