@@ -2,7 +2,7 @@
 
 module.exports = sanmenUtil;
 
-console.log(234455)
+console.log(2344556666666)
 function sanmenUtil() {
   return 'Hello from sanmenUtil';
 }
