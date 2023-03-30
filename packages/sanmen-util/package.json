@@ -1,0 +1,29 @@
+{
+  "name": "sanmen-util",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "kk <kk@g.com>",
+  "homepage": "https://github.com/rootegg/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/sanmen-util.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rootegg/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/sanmen-util.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/rootegg/lerna-demo/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
